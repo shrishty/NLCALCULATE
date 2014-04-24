@@ -1,7 +1,7 @@
 import nltk
 from nltk import load_parser
 from nltk.stem.wordnet import WordNetLemmatizer 
-
+#sample test cases
 #sentence = """Beth has 106 crayons. Beth gives 54 crayons away to Jen. How many crayons does Beth have left?"""
 #sentence = """Cindy has 1215 cookies . Paul has 1112 cookies . They both brought them to school for a party. How many cookies did they have in total?"""
 #sentence = """Raina has 5 bottles. Raina gave 2 bottles to Nithya. Shilpa has 10 bottles. Shilpa gave 3 bottles to Raina. Shilpa gave 1 bottles to Nithya. How many bottles does Raina have?"""
@@ -9,8 +9,8 @@ from nltk.stem.wordnet import WordNetLemmatizer
 #sentence = "There were 50 apples in a basket. 20 apples were taken out from the basket . How many apples are left in the basket."
 #sentence = "Meena has 40 apples. Meena has 10 mangoes. Riya has 20 mangoes. Riya gave 10 mangoes to Meena. How many mangoes are there in total? "
 
-sentence = "Meera bought 20 pencils. Meera has given 10 pencils to Shyam. Meera bought 5 pencils. What are the total number of pencils that Meera has?"
-
+#sentence = "Meera bought 20 pencils. Meera has given 10 pencils to Shyam. Meera bought 5 pencils. What are the total number of pencils that Meera has?"
+sentence = raw_input()
 lmtzr = WordNetLemmatizer()
 sublist = ['give', 'given','gave', 'gives', 'throw','threw', 'lost', 'delete','deleted', 'left','loose', 'away', 'out']
 addlist = ['has', 'acquire', 'take', 'get', 'got', 'bought']
